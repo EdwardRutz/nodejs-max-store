@@ -1,0 +1,17 @@
+
+
+
+# Node
+node_modules/
+package-lock.json
+
+
+# IDE
+.idea/
+
+
+# Misc
+docs/
+scratch.txt
+
+

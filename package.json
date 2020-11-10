@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-max-store",
+  "version": "1.0.0",
+  "description": "> Demo of the Node.js tech stack to build a basic online store. > > >",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardRutz/nodejs-max-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwardRutz/nodejs-max-store/issues"
+  },
+  "homepage": "https://github.com/EdwardRutz/nodejs-max-store#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node": "^15.0.1"
+  }
+}
