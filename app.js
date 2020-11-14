@@ -1,3 +1,5 @@
+const path = require('path');
+
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -9,11 +11,12 @@ const shopRoutes = require('./routes/shop');
 // Parsing Middleware
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.use(adminRoutes);
+app.use('/admin', adminRoutes);
 app.use(shopRoutes);
 
+// Catch all unhandled requests middleware
 app.use((req, res, next) => {
-  res.status(404).send('<h1>Page Not Found</h1>');
+  res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
 });
 
 
