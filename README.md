@@ -8,4 +8,5 @@
 
 - [Express Docs](http://expressjs.com/en/4x/api.html#app)
 - [CSS BEM (Block Element Modifier)](http://getbem.com/)
+- [npmjs.org, EJS Module](https://www.npmjs.com/package/ejs)
 

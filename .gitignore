@@ -13,6 +13,8 @@ package-lock.json
 # Misc
 docs/
 scratch.txt
-node-app-dev-steps.md
+docs/node-app-dev-steps.md
+docs/todo.md
+abeyance/
 
 
